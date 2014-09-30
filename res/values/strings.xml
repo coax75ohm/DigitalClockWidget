@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Digital Clock Widget</string>
+    <string name="widget_name">Digital Clock</string>
+    <string name="time_format">h:mm</string>
+    <string name="date_format">EEE, MMMM dd</string>
+</resources>
