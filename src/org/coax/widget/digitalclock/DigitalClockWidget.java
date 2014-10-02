@@ -70,7 +70,7 @@ public class DigitalClockWidget extends AppWidgetProvider {
                 updateTime();
             }
 
-            return START_REDELIVER_INTENT;
+            return START_STICKY;
         }
 
         @Override
