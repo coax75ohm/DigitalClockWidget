@@ -66,8 +66,10 @@ public class DigitalClockWidget extends AppWidgetProvider {
         public int onStartCommand(Intent intent, int flags, int startId) {
             super.onStartCommand(intent, flags, startId);
 
-            if (UPDATE_TIME.equals(intent.getAction())) {
-                updateTime();
+            if (intent != null) {
+                if (UPDATE_TIME.equals(intent.getAction())) {
+                    updateTime();
+                }
             }
 
             return START_STICKY;
